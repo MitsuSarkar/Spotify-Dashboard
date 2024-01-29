@@ -48,11 +48,17 @@ There is a reset button also to reset to main page.
 # Installation
 
 Sign up for a free Spotify developer account at developers.spotify.com
+
 Create a Spotify API app and get your Client ID and Client Secret
+
 Get data from spotify.csv 
+
 If you want to make your own than you have to go to ss.py and edit you client Id and client secret 
+
 run ss.py in cmd or vs code to generate the new csv with the url of album art
+
 Copy spotify.csv and spotify_dashboard.pbi files to your machine
+
 Open spotify.csv and spotify_dashboard.pbix  in Power BI and refresh data
 
 # Usage
