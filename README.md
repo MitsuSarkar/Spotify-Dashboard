@@ -1,8 +1,8 @@
-##Spotify Dashboard
+# Spotify Dashboard
 
 This Power BI dashboard allows you to explore and analyze your Spotify listening history. It contains visualizations and insights about your top tracks, artists, albums and how your music tastes have changed over time.
 
-#Overview
+# Overview
 
 The dashboard contains the following visualizations and pages:
 
@@ -16,7 +16,7 @@ Tracks by Release Date - A line chart showing tracks grouped by release year.
 Year in Review - A page for each year showing your top track for each month.
 Data is sourced directly from the Spotify API using the spotifyr R package. The dashboard is interactive - you can filter the visuals by year, artist, album or other attributes.
 
-#Installation
+# Installation
 
 Sign up for a free Spotify developer account at developers.spotify.com
 Create a Spotify API app and get your Client ID and Client Secret
@@ -26,13 +26,13 @@ run ss.py in cmd or vs code to generate the new csv with the url of album art
 Copy spotify.csv and spotify_dashboard.pbi files to your machine
 Open spotify.csv and spotify_dashboard.pbix  in Power BI and refresh data
 
-#Usage
+# Usage
 
 Open the spotify_dashboard.pbix file in Power BI Desktop. The data will automatically refresh every 30 minutes. You can filter visualizations, select items, and drill down for more details.
 
-#Contributing
+# Contributing
 
 Pull requests are welcome! Please feel free to submit issues or contribute enhancements.
 
-#License
+# License
 MIT
